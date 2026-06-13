@@ -8,6 +8,27 @@ A typical bacterial genome analysis pipeline begins with the acquisition of sequ
 
 Together, these approaches transform raw sequence data into biologically meaningful information, enabling researchers to better understand bacterial diversity, evolution, and pathogenic potential.
 
+This module follows on from the 'Mammalian sequence analysis' module (https://github.com/UEA-Cancer-Genetics-Lab/MHC_RNA-seq_Workshop), which covered:
+
+1.	The terminal and bash
+2.	R
+3.	FastQ files
+4.	QC of fastQ files using FastQC
+5.	Aligning reads to a reference
+6.	RNAseq read counts
+7.	Differential gene expression
+8.	Functional analyses (KEGG, GO, Reactome)
+
+This module will complement these topics and skills, and will focus on the following:
+
+1. Downloading a genome from NCBI
+2. Genome annotation with Bakta (https://bakta.computational.bio/)
+3. Typing with MLST (https://genepi.food.dtu.dk/mlstfinder)
+4. Genome browsers
+5. Identifying specific genome features
+6. Identifying protein motifs (uniprot - alphafold)
+
+
 ## NCBI Datasets CLI on Windows
 
 The National Center for Biotechnology Information (NCBI) Genomes database is a comprehensive public repository of genome sequence data from a wide range of organisms, including bacteria, archaea, viruses, and eukaryotes. It provides access to assembled genome sequences, associated annotations, metadata, and supporting information submitted by researchers worldwide.
