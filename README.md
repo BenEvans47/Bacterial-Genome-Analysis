@@ -133,4 +133,18 @@ As genome sequencing projects continue to generate increasingly large and comple
 1. In your web browser, navigate to [Proksee](https://proksee.ca/)
 2. Upload your genome in FASTA format
 3. Consider what you might you want to identify in your genome?
-4. Annotate antibiotic resistance genes with the 'CARD Resistance Gene Identifyer'. Add these to the genome map. Do you notice anything about the results?
+4. Annotate antibiotic resistance genes with the 'CARD Resistance Gene Identifier'. Add these to the genome map. Do you notice anything about the results?
+
+## Identifying protein structure and function
+
+A protein's function is closely linked to its structure, as the three-dimensional arrangement of amino acids determines how the protein interacts with other molecules and carries out its biological role. Consequently, analysing both protein sequence and structure is an important aspect of modern bioinformatics and molecular biology.
+Protein structure and function analyses are used to predict the roles of newly identified proteins, identify conserved domains and functional motifs, investigate evolutionary relationships, and assess the potential effects of sequence variation. These analyses are particularly valuable when studying proteins that have not yet been experimentally characterised.
+A key resource for protein analysis is the UniProt database, which provides a comprehensive collection of protein sequences and functional annotations. UniProt integrates information from experimental studies, computational predictions, and cross-references to other biological databases, making it a widely used resource for protein identification and functional interpretation. Combined with structural prediction and visualisation tools, databases such as UniProt enable researchers to gain deeper insights into protein biology and function.
+
+### Activity
+
+1.	In your web browser, navigate to UniProt BLAST
+https://www.uniprot.org/blast
+2.	Find the sequence for ‘oxa-23’ in your genome browser, and copy the nucleotide sequence.
+3.	Paste the sequence into UniProt BLAST, and as the database select ‘UniProtKB with 3D structure predictions (AlphaFold)’
+
