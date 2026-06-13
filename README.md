@@ -8,6 +8,8 @@ A typical bacterial genome analysis pipeline begins with the acquisition of sequ
 
 Together, these approaches transform raw sequence data into biologically meaningful information, enabling researchers to better understand bacterial diversity, evolution, and pathogenic potential.
 
+#
+
 This module follows on from the 'Mammalian sequence analysis' module (https://github.com/UEA-Cancer-Genetics-Lab/MHC_RNA-seq_Workshop), which covered:
 
 1.	The terminal and bash
