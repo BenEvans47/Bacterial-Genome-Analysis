@@ -104,6 +104,7 @@ Several annotation pipelines are widely used for bacterial genomes. Prokka provi
 1. In your web browser, navigate to [Bakta](https://bakta.computational.bio/)
 2. Upload your genome in FASTA format
 3. What do you think the most appropriate settings to use might be?
+4. Once you are happy with the settings press "Submit"
 
 ## Strain Typing
 
@@ -119,9 +120,10 @@ Because housekeeping genes evolve relatively slowly, MLST provides a standardise
 2. Upload your genome in FASTA format using the 'upload' button in the top left corner
 3. In the 'Tools' menu, go to 'Annotation' > 'MLST'
 4. Select your uploaded genome as the input file, then click 'Run tool'
-5. Go to the [PubMLST site](https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef&page=profiles)
-6. Under 'Schemes', select 'MLST (Pasteur)'
-7. Enter the allelic profile, and click 'Search'
+5. Wait for the tool to finish running - you will see it on the right under the history tab. Once it turns green, it has finished.
+6. Go to the [PubMLST site](https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef&page=profiles)
+7. Under 'Schemes', select 'MLST (Pasteur)'
+8. Enter the allelic profile obtained from the output of the Galaxy MLST job, and click 'Search'
 
 ## Viewing Your Genome
 
@@ -148,6 +150,6 @@ A key resource for protein analysis is the UniProt database, which provides a co
 
 1.	In your web browser, navigate to UniProt BLAST
 https://www.uniprot.org/blast
-2.	Find the sequence for ‘oxa-23’ in your genome browser, and copy the nucleotide sequence.
+2.	Find the ‘oxa-23’ gene in the genome using your genome browser, and copy the nucleotide sequence.
 3.	Paste the sequence into UniProt BLAST, and as the database select ‘UniProtKB with 3D structure predictions (AlphaFold)’
 
