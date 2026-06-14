@@ -44,16 +44,16 @@ In addition to genome sequences, NCBI integrates related resources such as gene,
 1. **Download the Datasets executable**
    - Go to: [NCBI Datasets CLI Downloads](https://www.ncbi.nlm.nih.gov/datasets/docs/v1/download-and-install/)
    - Download the Windows version (`datasets.exe`)
-   - Place it somewhere convenient, for example: `C:\Tools\datasets.exe` or add it to your PATH
+   - Place it somewhere convenient, for example a working directory, your downloads folder, or add it to your PATH
 
 2. **Test the installation**
    - Open Command Prompt:
    ```
    datasets version
    ```
-   or
+   or in your working directory/downloads folder
    ```
-   C:\Tools\datasets.exe version
+   .\datasets version
    ```
 
 3. **Download a genome**
@@ -63,25 +63,28 @@ In addition to genome sequences, NCBI integrates related resources such as gene,
    ```
    - This creates: `ncbi_dataset.zip`
    - We are going to download `GCF_000021245.2`
+   ```
+   datasets download genome accession GCF_000021245.2
+   ```
 
 4. **Extract the ZIP file**
    - Using built-in PowerShell from Command Prompt:
    ```powershell
    powershell -command "Expand-Archive -Path ncbi_dataset.zip -DestinationPath genome"
    ```
-   - You can then find files such as:
+   - You can then find the genome as a FASTA file:
    ```
-   genome\ncbi_dataset\data\GCF_000001405.40\genomic.fna
-   genome\ncbi_dataset\data\GCF_000001405.40\genomic.gff
+   genome\ncbi_dataset\data\GCF_000021245.2\GCF_000021245.2_ASM2124v2_genomic.fna
    ```
 
-5. **Alternative approach: Download by species name**
+5. **Alternative approach: Download by species name**  
+   To download the *Acinetobacter baumannii* reference genome:
    ```
    datasets download genome taxon "Acinetobacter baumannii" --reference
    ```
-   or
+   or to download all *Acinetobacter baumannii* genomes:  (WANINING: do not actually run this command - it is provided for example only)
    ```
-   datasets download genome taxon "Homo sapiens"
+   datasets download genome taxon "Acinetobacter baumannii"
    ```
 
 ## Genome Annotation
