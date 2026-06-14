@@ -152,4 +152,8 @@ A key resource for protein analysis is the UniProt database, which provides a co
 https://www.uniprot.org/blast
 2.	Find the ‘oxa-23’ gene in the genome using your genome browser, and copy the nucleotide sequence.
 3.	Paste the sequence into UniProt BLAST, and as the database select ‘UniProtKB with 3D structure predictions (AlphaFold)’
+4.	Explore the output. What can you learn about this protein?
+
+If the BLAST analyses doesn’t complete in time, use this one that was run a few days ago: https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20260614-001005-0702-89623928-p2m/overview
+
 
