@@ -84,7 +84,7 @@ In addition to genome sequences, NCBI integrates related resources such as gene,
 ### Activity
 
 1. **Download the Datasets executable**
-   - Go to: [NCBI Datasets CLI Downloads](https://www.ncbi.nlm.nih.gov/datasets/docs/v1/download-and-install/)
+   - Go to: [NCBI Datasets CLI Downloads](https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/download-and-install/)
    - Download the Windows version (`datasets.exe`)
    - Place it somewhere convenient, for example a working directory, your downloads folder, or add it to your PATH
 
