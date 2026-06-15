@@ -8,6 +8,43 @@ A typical bacterial genome analysis pipeline begins with the acquisition of sequ
 
 Together, these approaches transform raw sequence data into biologically meaningful information, enabling researchers to better understand bacterial diversity, evolution, and pathogenic potential.
 
+# Common pipeline examples
+
+Illumina outbreak genomics (reference-based)
+1.	FastQC 
+2.	fastp 
+3.	BWA-MEM 
+4.	samtools 
+5.	Snippy 
+6.	IQ-TREE 
+7.	iTOL 
+
+Bacterial isolate assembly (Illumina)
+1.	FastQC 
+2.	fastp 
+3.	SPAdes 
+4.	QUAST 
+5.	Prokka/Bakta 
+6.	AMRFinderPlus 
+7.	Panaroo 
+
+Hybrid assembly (Illumina + Nanopore)
+1.	FastQC + NanoPlot 
+2.	fastp 
+3.	Unicycler 
+4.	QUAST 
+5.	Bakta 
+6.	AMRFinderPlus 
+7.	PlasmidFinder 
+
+Long-read assembly (Nanopore)
+1.	NanoPlot 
+2.	Filtlong 
+3.	Flye 
+4.	Medaka 
+5.	QUAST 
+6.	Bakta
+
 #
 
 This module follows on from the 'Mammalian sequence analysis' module (https://github.com/UEA-Cancer-Genetics-Lab/MHC_RNA-seq_Workshop), which covered:
