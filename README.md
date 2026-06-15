@@ -8,6 +8,10 @@ A typical bacterial genome analysis pipeline begins with the acquisition of sequ
 
 Together, these approaches transform raw sequence data into biologically meaningful information, enabling researchers to better understand bacterial diversity, evolution, and pathogenic potential.
 
+# Bacterial Genome Analysis piplines
+
+<img width="1024" height="1536" alt="Bacterial_genome_analysis_flowdiagram" src="https://github.com/user-attachments/assets/34a64c0a-bb26-4635-8281-db072ae28901" />
+
 # Common pipeline examples
 
 Illumina outbreak genomics (reference-based)
