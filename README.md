@@ -25,10 +25,10 @@ This module will complement these topics and skills, and will focus on the follo
 
 1. Downloading a genome from NCBI
 2. Genome annotation with Bakta (https://bakta.computational.bio/)
-3. Typing with MLST (https://genepi.food.dtu.dk/mlstfinder)
-4. Genome browsers
+3. Typing with MLST in Galaxy and PubMLST (https://usegalaxy.eu/ and https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef&page=profiles)
+4. Genome browsing in Proksee (https://proksee.ca/)
 5. Identifying specific genome features
-6. Identifying protein motifs (uniprot - alphafold)
+6. Identifying protein motifs in UniProt (https://www.uniprot.org/)
 
 
 # Bacterial Genome Analysis piplines
